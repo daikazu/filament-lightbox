@@ -2,6 +2,4 @@
 
 namespace Daikazu\FilamentLightbox;
 
-class FilamentLightbox
-{
-}
+class FilamentLightbox {}
