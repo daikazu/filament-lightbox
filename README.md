@@ -1,9 +1,15 @@
-# Lightbox for Filament PHP
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="art/header-dark.png">
+   <img alt="Logo for Lightbox for Filament PHP" src="art/header-light.png">
+</picture>
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/daikazu/filament-lightbox.svg?style=flat-square)](https://packagist.org/packages/daikazu/filament-lightbox)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/daikazu/filament-lightbox/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/daikazu/filament-lightbox/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/daikazu/filament-lightbox/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/daikazu/filament-lightbox/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/daikazu/filament-lightbox.svg?style=flat-square)](https://packagist.org/packages/daikazu/filament-lightbox)
+
+
+# Lightbox for Filament PHP
 
 Lightbox to preview images in Filament PHP Tables and Information Panels that uses [fslightbox.js](https://fslightbox.com).
 
