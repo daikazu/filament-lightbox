@@ -6,14 +6,11 @@ use Filament\Contracts\Plugin;
 use Filament\Infolists\Components\ImageEntry;
 use Filament\Infolists\Components\TextEntry;
 use Filament\Panel;
-use Filament\Support\Concerns\EvaluatesClosures;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
 
 class LightBoxPlugin implements Plugin
 {
-    use EvaluatesClosures;
-
     public static function make(): static
     {
         return app(static::class);
@@ -26,7 +23,7 @@ class LightBoxPlugin implements Plugin
 
     public function register(Panel $panel): void
     {
-        // TODO: Implement register() method.
+        //
     }
 
     public function boot(Panel $panel): void

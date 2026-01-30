@@ -63,9 +63,9 @@ window.FilamentLightBox = {
     open(e, url) {
         e.preventDefault();
         const lightbox = new FsLightbox();
-        const type = this.getType(url);
-        if (url !== undefined) {
 
+        if (url) {
+            const type = this.getType(url);
 
             if (url !== this.getViewerURL(url)) {
                 this.createIframe(url);
@@ -89,6 +89,7 @@ window.FilamentLightBox = {
         }
 
         if (e.target.src !== undefined) {
+            const type = this.getType(e.target.src);
             lightbox.props.sources = [e.target.src];
             lightbox.props.type = type;
             lightbox.open();

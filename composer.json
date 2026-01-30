@@ -77,10 +77,7 @@
         "laravel": {
             "providers": [
                 "Daikazu\\FilamentLightbox\\FilamentLightboxServiceProvider"
-            ],
-            "aliases": {
-                "FilamentLightbox": "Daikazu\\FilamentLightbox\\Facades\\FilamentLightbox"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
