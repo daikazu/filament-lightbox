@@ -11,8 +11,6 @@ class FilamentLightboxServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-lightbox';
 
-    public static string $viewNamespace = 'filament-lightbox';
-
     public function configurePackage(Package $package): void
     {
         $package
