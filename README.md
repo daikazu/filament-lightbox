@@ -13,6 +13,11 @@
 
 Lightbox to preview images in Filament PHP Tables and Information Panels that uses [fslightbox.js](https://fslightbox.com).
 
+## Requirements
+
+- PHP 8.2+
+- Laravel 11.x or 12.x
+- Filament 4.x or 5.x
 
 ## Installation
 
