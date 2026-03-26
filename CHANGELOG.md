@@ -2,6 +2,10 @@
 
 All notable changes to `filament-lightbox` will be documented in this file.
 
+## v2.2.0 - 2026-03-26
+
+Laravel 13 support
+
 ## v2.1.0 - 2026-01-30
 
 ### What's Changed
